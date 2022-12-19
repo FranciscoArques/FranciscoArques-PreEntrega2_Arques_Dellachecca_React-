@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FranciscoArques-PreEntrega2_Arques_Dellachecca_React-/static/css/main.28b27503.css",
+    "main.js": "/FranciscoArques-PreEntrega2_Arques_Dellachecca_React-/static/js/main.3e1368ee.js",
+    "static/js/787.aa8d5880.chunk.js": "/FranciscoArques-PreEntrega2_Arques_Dellachecca_React-/static/js/787.aa8d5880.chunk.js",
+    "index.html": "/FranciscoArques-PreEntrega2_Arques_Dellachecca_React-/index.html",
+    "main.28b27503.css.map": "/FranciscoArques-PreEntrega2_Arques_Dellachecca_React-/static/css/main.28b27503.css.map",
+    "main.3e1368ee.js.map": "/FranciscoArques-PreEntrega2_Arques_Dellachecca_React-/static/js/main.3e1368ee.js.map",
+    "787.aa8d5880.chunk.js.map": "/FranciscoArques-PreEntrega2_Arques_Dellachecca_React-/static/js/787.aa8d5880.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28b27503.css",
+    "static/js/main.3e1368ee.js"
+  ]
+}
