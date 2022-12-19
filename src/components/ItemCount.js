@@ -13,7 +13,6 @@ const ItemCount = ( {stock}) => {
     }
 
     return (
-        <div className='flex flex-col items-center'>
             <div className='flex flex-col items-center'>
                 <strong>Cantidad a Comprar:</strong>
                 <strong> {count} </strong>
@@ -22,7 +21,6 @@ const ItemCount = ( {stock}) => {
                     <button disabled= {count === stock} onClick= {itemToCart} className="btn">+</button>
                 </div>
             </div>
-        </div>
     )
 }
 

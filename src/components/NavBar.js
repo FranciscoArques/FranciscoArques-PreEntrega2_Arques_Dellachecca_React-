@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import CartWidget from "./CartWidget"
 
 const NavBar = () => {
@@ -9,12 +10,13 @@ const NavBar = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                 </label>
                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 bg-light-coffee text-white">
-                    <li><a>Inicio</a></li>
+                    <li><Link to="/">Inicio</Link></li>
                     <li><a>Sobre Nosotros</a></li>
-                    <li><a>Tienda</a></li>
+                    <li><Link to="/">Tienda</Link></li>
                 </ul>
             </div>
-                <a className="btn btn-ghost normal-case text-xl text-white">CaféPorMayor</a>
+                <Link to="/" className="btn btn-ghost normal-case text-xl text-white">CaféPorMayor</Link>
+                <Link to={`/category/oferta`} className="btn btn-ghost normal-case text-xl text-white">OFERTAS!</Link>
             </div>
             <div className="flex-none">
                 <div className="dropdown dropdown-end">
